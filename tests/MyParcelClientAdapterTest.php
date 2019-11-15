@@ -2,8 +2,8 @@
 
 namespace Mvdnbrk\Laravel\Tests;
 
-use Mvdnbrk\MyParcel\Client;
 use Mvdnbrk\Laravel\MyParcelClientAdapter;
+use Mvdnbrk\MyParcel\Client;
 
 class MyParcelClientAdapterTest extends TestCase
 {
