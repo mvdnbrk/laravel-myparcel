@@ -1,0 +1,59 @@
+{
+    "name": "mvdnbrk/laravel-myparcel",
+    "description": "MyParcel API client for Laravel",
+    "keywords": [
+        "laravel",
+        "myparcel",
+        "api"
+    ],
+    "homepage": "https://github.com/mvdnbrk/laravel-myparcel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mark van den Broek",
+            "email": "mvdnbrk@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "illuminate/support": "^5.8 || ^6.0",
+        "mvdnbrk/myparcel-php-api": "^1.0"
+    },
+    "require-dev": {
+        "nunomaduro/collision": "^3.0",
+        "orchestra/testbench": "^3.8 || ^4.0",
+        "phpunit/phpunit": "^8.0",
+        "scrutinizer/ocular": "^1.6",
+        "symfony/var-dumper": "^4.3"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mvdnbrk\\Laravel\\MyParcelServiceProvider"
+            ],
+            "aliases": {
+                "MyParcel": "Mvdnbrk\\Laravel\\Facades\\MyParcel"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Mvdnbrk\\Laravel\\": "src"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mvdnbrk\\Laravel\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    }
+}
