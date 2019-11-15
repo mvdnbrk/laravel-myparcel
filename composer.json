@@ -18,7 +18,7 @@
     "require": {
         "php": "^7.2",
         "illuminate/support": "^5.8 || ^6.0",
-        "mvdnbrk/myparcel-php-api": "^1.0"
+        "mvdnbrk/myparcel-php-api": "^2.0"
     },
     "require-dev": {
         "nunomaduro/collision": "^3.0",
