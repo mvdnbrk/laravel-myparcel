@@ -8,7 +8,7 @@
 [![StyleCI][ico-style-ci]][link-style-ci]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-This package incorporates the [MyParcel API client](https://github.com/mvdnbrk/myparcel-php-api) into your laravel project.
+This package incorporates the [MyParcel API client](https://github.com/mvdnbrk/myparcel-php-api) into your Laravel project.
 
 ## Installation
 
